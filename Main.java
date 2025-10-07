@@ -17,7 +17,7 @@ public class Main {
      double doubleB = Double.parseDouble(JOptionPane.showInputDialog("✧ Enter second double (｡♥‿♥｡)"));
      double doubleResult = math.multiply(doubleA, doubleB);
      JOptionPane.showMessageDialog(null, 
-    		 "Multiplying doubles: \n" + doubleA + " x " + doubleB + "=" + "\n彡(ノ^ ^)ノ✨✨");
+    		 "Multiplying doubles: \n" + doubleA + " x " + doubleB + "=" + doubleResult + "\n彡(ノ^ ^)ノ✨✨");
 
      
      Vehicle vehicle = new Vehicle();
